@@ -60,7 +60,20 @@ export default class MyDocument extends Document<IProps> {
 
     return (
       <Html lang="en">
-        <Head></Head>
+        <Head>
+          <meta charSet="UTF-8" />
+          <meta
+            name="viewport"
+            content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0"
+          />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+          <meta name="msapplication-TileImage" content="favicon" />
+          <meta property="og:type" content="website" />
+          <link rel="icon" href="/favicon/favicon.ico" />
+          <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
+          <link rel="manifest" href="/favicon/site.webmanifest" />
+        </Head>
         <body>
           <Main />
           <NextScript />

@@ -17,18 +17,10 @@ const HomePage = (props: IPageProps) => {
   return (
     <Container>
       <Grid container spacing={2}>
-        <Grid size={{ xs: 6, md: 4 }}>
-          <Button variant="text">Text</Button>
-        </Grid>
-        <Grid size={{ xs: 6, md: 4 }}>
-          <Button variant="contained">Contained</Button>
-        </Grid>
-        <Grid size={{ xs: 6, md: 4 }}>
-          <Button variant="outlined">Outlined</Button>
-        </Grid>
-        <Grid size={{ xs: 6, md: 4 }}>
-          <Typography variant="h1">Outlined</Typography>
-          <Typography variant="h2">Outlined</Typography>
+        <Grid size={{ xs: 12, md: 12 }}>
+          <Typography variant="h1" textAlign={"center"}>
+            Home page
+          </Typography>
         </Grid>
       </Grid>
     </Container>
