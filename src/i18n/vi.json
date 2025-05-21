@@ -1,0 +1,21 @@
+{
+  "ERRORS": {
+    "TITLE_ERROR": "Thông báo lỗi",
+    "INTERNAL_SERVER_ERROR": "Đã có lỗi xảy ra vui lòng liên hệ Administrator",
+    "UNAUTHORIZED": "Người dùng không có quyền truy cập. Vui lòng đăng nhập lại!",
+    "BAD_REQUEST": "Đã có lỗi xảy ra vui lòng liên hệ Administrator",
+    "FORBIDDEN": "Người dùng không có quyền truy cập!",
+    "NOT_FOUND": "Không thể tìm thấy API liên quan đến yêu cầu!",
+    "ACCESS_DENIED": "Người dùng hết quyền truy cập. Vui lòng đăng nhập lại!",
+    "ROLE_UPDATE": "Phiên làm việc hết hạn. Vui lòng đăng nhập lại!",
+    "DATA_NOT_UUID_VALUE": "Hệ thống đang gặp sự cố vui lòng quay lại sau!",
+    "PROVISIONAL_HEADERS_ARE_SHOWN":
+      "Hệ thống đang gặp sự cố kết nối máy chủ. Vui lòng quay lại sau!",
+    "CODE_INVALID": "Mã xác nhận đăng ký không tồn tại!",
+    "WRONG_CREDENTIALS_PROVIDED":
+      "Xác thực email hoặc mật khẩu không chính xác. Vui lòng thử lại!",
+    "BANNER_NOT_FOUND": "Banner không được tìm thấy!",
+    "KEY_ALREADY_EXIST": "Quyền đã tồn tại!",
+    "ROLE_NOT_FOUND": "Quyền không được tìm thấy!"
+  }
+}

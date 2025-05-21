@@ -1,0 +1,21 @@
+{
+  "ERRORS": {
+    "TITLE_ERROR": "Error notification",
+    "INTERNAL_SERVER_ERROR": "There was an error, please contact Administrator",
+    "UNAUTHORIZED": "User does not have access. Please login again!",
+    "BAD_REQUEST": "An error occurred, please contact Administrator",
+    "FORBIDDEN": "User does not have access!",
+    "NOT_FOUND": "The API related to the request could not be found!",
+    "ACCESS_DENIED": "User has expired. Please login again!",
+    "ROLE_UPDATE": "Session expired. Please login again!",
+    "DATA_NOT_UUID_VALUE": "There is a problem with the system, please come back later!",
+    "PROVISIONAL_HEADERS_ARE_SHOWN":
+      "The system is having server connection problems. Please come back later!",
+    "CODE_INVALID": "Registration confirmation code does not exist!",
+    "WRONG_CREDENTIALS_PROVIDED":
+      "Email verification or password is incorrect. Please try again!",
+    "BANNER_NOT_FOUND": "Banner not found!",
+    "KEY_ALREADY_EXIST": "Permission already exists!",
+    "ROLE_NOT_FOUND": "Permission not found!"
+  }
+}
