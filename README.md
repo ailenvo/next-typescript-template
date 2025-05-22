@@ -2,18 +2,38 @@
 
 # Install package
 
+using yarn
+
 ```
-   ✨ **_yarn install_** or  **_npm install_**
+    yarn install
+```
+
+using npm
+
+```
+    npm install
 ```
 
 # Run
 
 ```
-   ✨ **_yarn dev_** or  **_npm run dev_**
+    yarn dev
+```
+
+using npm
+
+```
+    npm run dev
 ```
 
 # Build
 
 ```
-   ✨ **_yarn build_** or  **_npm run build_**
+    yarn build
+```
+
+using npm
+
+```
+    npm run build
 ```
