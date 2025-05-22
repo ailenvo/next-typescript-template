@@ -1,5 +1,5 @@
 {
-  "name": "e-commerce",
+  "name": "next-template-typescript",
   "version": "1.0.0",
   "private": true,
   "author": "ailenvo",
@@ -18,7 +18,8 @@
     "typescript",
     "mui",
     "prettier",
-    "axios"
+    "axios",
+    "react-quill"
   ],
   "dependencies": {
     "@emotion/cache": "^11.14.0",
