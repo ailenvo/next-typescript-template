@@ -1,9 +1,22 @@
 import { GetServerSideProps } from "next";
 import { Container, Grid, Typography } from "@mui/material";
+import { useEffect } from "react";
 
 interface IPageProps {}
 
 const HomePage = (props: IPageProps) => {
+  // Thêm task mới
+  const addTask = async () => {
+    const res = await fetch("/api/tasks/1");
+
+    const data = await res.json();
+    console.log("res: ", data);
+  };
+
+  useEffect(() => {
+    addTask();
+  }, []);
+
   return (
     <Container>
       <Grid container spacing={2}>
