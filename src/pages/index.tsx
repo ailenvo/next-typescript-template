@@ -1,19 +1,9 @@
-import { useRouter } from "next/router";
 import { GetServerSideProps } from "next";
-import {
-  Box,
-  Button,
-  Container,
-  Grid,
-  Input,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 
 interface IPageProps {}
 
 const HomePage = (props: IPageProps) => {
-  const router = useRouter();
   return (
     <Container>
       <Grid container spacing={2}>
@@ -22,6 +12,8 @@ const HomePage = (props: IPageProps) => {
             Home page
           </Typography>
         </Grid>
+
+        <Grid size={{ xs: 12, md: 12 }}></Grid>
       </Grid>
     </Container>
   );
